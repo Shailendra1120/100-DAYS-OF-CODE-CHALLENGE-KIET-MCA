@@ -1,0 +1,25 @@
+<html>
+<head>
+<script>
+function factorial()
+{
+var a, i, fact;
+fact=1
+a=Number(document.getElementById("first").value);
+for(i=1; i<=a; i++)
+{
+fact= fact*i;
+}
+document.getElementById("Output").value= fact;
+
+}
+</script>
+</head>
+<body>
+Enter the Number: <input id="first">
+<button onclick="factorial()">Factoial</button>
+<input id= "Output">
+</body>
+</html>
+
+
